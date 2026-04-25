@@ -1,0 +1,15 @@
+{
+  "name": "Anvi's 1st Birthday ❤️",
+  "short_name": "Anvi ❤️",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffe4ec",
+  "theme_color": "#ff80aa",
+  "icons": [
+    {
+      "src": "images/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

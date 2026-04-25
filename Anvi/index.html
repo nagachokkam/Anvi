@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Baby ❤️</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#ff80aa">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- 🔐 Login Screen -->
+  <div id="login">
+    <h2>Enter to see my world ❤️</h2>
+    <input type="password" id="pass" placeholder="Password">
+    <!--<button onclick="checkPass()">Enter</button>-->
+<button onclick="startApp()">Enter</button>
+  </div>
+
+  <!-- 📱 App Content -->
+  <div id="app" style="display:none;">
+
+    <h1>Happy 1st Birthday 🎂</h1>
+    <p class="subtitle">My Little Princess ❤️</p>
+
+    <img src="images/anvii.jpg" class="main-img">
+
+    <div class="buttons">
+      <button onclick="showSection('timeline')">📸 Timeline</button>
+      <button onclick="showSection('letter')">💌 From Dad</button>
+    </div>
+
+    <div id="content"></div>
+
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+<audio id="music" src="birthday.mp3"></audio>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #ffe4ec, #fff);
+}
+
+/* Login */
+#login {
+  margin-top: 100px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background: #ff80aa;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff4d88;
+}
+
+/* App */
+h1 {
+  color: #ff4d88;
+}
+
+.subtitle {
+  color: #666;
+}
+
+.main-img {
+  width: 30%;
+  border-radius: 20px;
+  margin: 20px 0;
+  height: auto;
+}
+
+.section {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.card {
+  background: white;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 20%;
+  border-radius: 15px;
+}
